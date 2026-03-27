@@ -1,0 +1,12 @@
+# Python runtime: use Python 3.10+ (not installable via pip requirements)
+
+# Solver (Gurobi). NOTE: gurobipy requires a Gurobi installation and a valid license.
+# Install Gurobi from https://www.gurobi.com/ and follow their instructions to install the Python package.
+# You can uncomment the following line if your environment already has a proper Gurobi install method:
+# gurobipy
+
+numpy>=1.21,<2.0
+scipy>=1.7
+pandas>=1.3
+matplotlib>=3.4
+sympy>=1.10
